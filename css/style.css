@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.gen-container {
+  padding: 100px;
+}
+
+/* DEBUG RULES */
+.debug [class*="col-"] {
+  height: 250px;
+  border: 1px solid black;
+  background-color: lightcyan;
+}
+
+img {
+  width: 100px;
+}
+
+.lessons {
+  margin-bottom: 20px;
+}
