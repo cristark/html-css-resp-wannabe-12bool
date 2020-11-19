@@ -3,21 +3,50 @@ body {
   text-align: center;
 }
 
-.gen-container {
-  padding: 100px;
+p {
+  width: 80%;
+  margin: auto;
+}
+
+h2 {
+  font-size: 200%;
+  color: brown;
+  text-transform: uppercase;
+}
+
+[class*="col-"] {
+  margin-bottom: 50px;
 }
 
 /* DEBUG RULES */
 .debug [class*="col-"] {
-  height: 150px;
+  height: 200px;
   border: 1px solid black;
   background-color: lightcyan;
 }
 
 img {
-  width: 100px;
+  height: 180px;
+  padding: 0 20px;
 }
 
-.lessons {
-  margin-bottom: 20px;
+/* - - SEZIONE HOW IT WORKS - - */
+.hiw {
+  background-color: rgb(241, 241, 241);
+  height: 100%;
+  /* margin: 50px 0; */
+  padding: 30px;
+}
+
+.why {
+  background-color: rgb(241, 241, 241);
+  height: 100%;
+  /* margin: 50px 0; */
+  padding: 30px;
+}
+
+.why img {
+  background-color: lightgreen;
+  border-radius: 100%;
+  padding: 10px;
 }
