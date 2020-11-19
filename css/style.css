@@ -1,17 +1,23 @@
 body {
   font-family: sans-serif;
   text-align: center;
+  background-color: #ebebeb;
 }
 
-p {
+p,
+hr {
   width: 80%;
   margin: auto;
 }
 
 h2 {
   font-size: 200%;
-  color: brown;
+  color: #ee6c4d;
   text-transform: uppercase;
+}
+
+h3 {
+  color: #ee6c4d;
 }
 
 [class*="col-"] {
@@ -24,29 +30,28 @@ h2 {
   border: 1px solid black;
   background-color: lightcyan;
 }
+/* /DEBUG RULES */
 
 img {
   height: 180px;
-  padding: 0 20px;
+  padding: 10px 20px;
 }
 
 /* - - SEZIONE HOW IT WORKS - - */
 .hiw {
-  background-color: rgb(241, 241, 241);
+  background-color: #04395e;
   height: 100%;
-  /* margin: 50px 0; */
+  color: white;
   padding: 30px;
 }
 
 .why {
-  background-color: rgb(241, 241, 241);
   height: 100%;
-  /* margin: 50px 0; */
   padding: 30px;
 }
 
 .why img {
-  background-color: lightgreen;
+  background-color: #648767;
   border-radius: 100%;
   padding: 10px;
 }
